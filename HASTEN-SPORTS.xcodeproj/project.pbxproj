@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B7F3ACE2A416C82B0A306C1 /* Pods_HASTEN_SPORTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5295C0BA9FD5B7DD1B6D1A59 /* Pods_HASTEN_SPORTS.framework */; };
+		6A360238208334A600CBB740 /* DetailPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A360237208334A600CBB740 /* DetailPlayerViewController.swift */; };
+		6AA1367220825A3000D44086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1367120825A3000D44086 /* AppDelegate.swift */; };
+		6AA1367420825A3000D44086 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1367320825A3000D44086 /* ListViewController.swift */; };
+		6AA1367720825A3000D44086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA1367520825A3000D44086 /* Main.storyboard */; };
+		6AA1367920825A3000D44086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA1367820825A3000D44086 /* Assets.xcassets */; };
+		6AA1367C20825A3000D44086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA1367A20825A3000D44086 /* LaunchScreen.storyboard */; };
+		6AA1368720825A3000D44086 /* HASTEN_SPORTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1368620825A3000D44086 /* HASTEN_SPORTSTests.swift */; };
+		6AA1369220825A3000D44086 /* HASTEN_SPORTSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1369120825A3000D44086 /* HASTEN_SPORTSUITests.swift */; };
+		6AA136A320825CC200D44086 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136A220825CC200D44086 /* Resource.swift */; };
+		6AA136A620825CE100D44086 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136A520825CE100D44086 /* Constants.swift */; };
+		6AA136AA20825CFA00D44086 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136A820825CFA00D44086 /* API.swift */; };
+		6AA136AB20825CFA00D44086 /* SessionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136A920825CFA00D44086 /* SessionAPI.swift */; };
+		6AA136B220825FA800D44086 /* ListSportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136B120825FA800D44086 /* ListSportsViewModel.swift */; };
+		6AA136B42082627B00D44086 /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136B32082627B00D44086 /* Sports.swift */; };
+		6AA136B820827B0400D44086 /* ViewCellSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA136B720827B0400D44086 /* ViewCellSport.swift */; };
+		72A21D65A09091EF5BFD618C /* Pods_HASTEN_SPORTSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0D1427AAED0C33A69D087 /* Pods_HASTEN_SPORTSTests.framework */; };
+		B6EA825EB287E209E2A4B8C1 /* Pods_HASTEN_SPORTSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C369C148F1F38670C30517F2 /* Pods_HASTEN_SPORTSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AA1368320825A3000D44086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA1366620825A3000D44086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA1366D20825A3000D44086;
+			remoteInfo = "HASTEN-SPORTS";
+		};
+		6AA1368E20825A3000D44086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA1366620825A3000D44086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA1366D20825A3000D44086;
+			remoteInfo = "HASTEN-SPORTS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A0D1427AAED0C33A69D087 /* Pods_HASTEN_SPORTSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HASTEN_SPORTSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C70A51F0271D09E0363B394 /* Pods-HASTEN-SPORTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTS/Pods-HASTEN-SPORTS.release.xcconfig"; sourceTree = "<group>"; };
+		5295C0BA9FD5B7DD1B6D1A59 /* Pods_HASTEN_SPORTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HASTEN_SPORTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A360237208334A600CBB740 /* DetailPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlayerViewController.swift; sourceTree = "<group>"; };
+		6AA1366E20825A3000D44086 /* HASTEN-SPORTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HASTEN-SPORTS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA1367120825A3000D44086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AA1367320825A3000D44086 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6AA1367620825A3000D44086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AA1367820825A3000D44086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA1367B20825A3000D44086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AA1367D20825A3000D44086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA1368220825A3000D44086 /* HASTEN-SPORTSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HASTEN-SPORTSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA1368620825A3000D44086 /* HASTEN_SPORTSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HASTEN_SPORTSTests.swift; sourceTree = "<group>"; };
+		6AA1368820825A3000D44086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA1368D20825A3000D44086 /* HASTEN-SPORTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HASTEN-SPORTSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA1369120825A3000D44086 /* HASTEN_SPORTSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HASTEN_SPORTSUITests.swift; sourceTree = "<group>"; };
+		6AA1369320825A3000D44086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA136A220825CC200D44086 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		6AA136A520825CE100D44086 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6AA136A820825CFA00D44086 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6AA136A920825CFA00D44086 /* SessionAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionAPI.swift; sourceTree = "<group>"; };
+		6AA136B120825FA800D44086 /* ListSportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSportsViewModel.swift; sourceTree = "<group>"; };
+		6AA136B32082627B00D44086 /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		6AA136B720827B0400D44086 /* ViewCellSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCellSport.swift; sourceTree = "<group>"; };
+		9266ADDC77083AE58F446251 /* Pods-HASTEN-SPORTSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTSUITests/Pods-HASTEN-SPORTSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C369C148F1F38670C30517F2 /* Pods_HASTEN_SPORTSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HASTEN_SPORTSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9861CDF532327926332DE64 /* Pods-HASTEN-SPORTSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTSUITests/Pods-HASTEN-SPORTSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0C2F628EB25F6FA51A36C1 /* Pods-HASTEN-SPORTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTS/Pods-HASTEN-SPORTS.debug.xcconfig"; sourceTree = "<group>"; };
+		F6201EA2BB47713016D7E1E5 /* Pods-HASTEN-SPORTSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTSTests/Pods-HASTEN-SPORTSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE0A056D6040553F82B3EB58 /* Pods-HASTEN-SPORTSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HASTEN-SPORTSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HASTEN-SPORTSTests/Pods-HASTEN-SPORTSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA1366B20825A3000D44086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7F3ACE2A416C82B0A306C1 /* Pods_HASTEN_SPORTS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1367F20825A3000D44086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A21D65A09091EF5BFD618C /* Pods_HASTEN_SPORTSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1368A20825A3000D44086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA825EB287E209E2A4B8C1 /* Pods_HASTEN_SPORTSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4557EDCF93F253464E90AFE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C2F628EB25F6FA51A36C1 /* Pods-HASTEN-SPORTS.debug.xcconfig */,
+				3C70A51F0271D09E0363B394 /* Pods-HASTEN-SPORTS.release.xcconfig */,
+				FE0A056D6040553F82B3EB58 /* Pods-HASTEN-SPORTSTests.debug.xcconfig */,
+				F6201EA2BB47713016D7E1E5 /* Pods-HASTEN-SPORTSTests.release.xcconfig */,
+				9266ADDC77083AE58F446251 /* Pods-HASTEN-SPORTSUITests.debug.xcconfig */,
+				C9861CDF532327926332DE64 /* Pods-HASTEN-SPORTSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A3602352083346A00CBB740 /* ListPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136B720827B0400D44086 /* ViewCellSport.swift */,
+				6AA136B120825FA800D44086 /* ListSportsViewModel.swift */,
+				6AA1367320825A3000D44086 /* ListViewController.swift */,
+			);
+			name = ListPlayerViewController;
+			sourceTree = "<group>";
+		};
+		6A3602362083348400CBB740 /* DetailPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A360237208334A600CBB740 /* DetailPlayerViewController.swift */,
+			);
+			name = DetailPlayerViewController;
+			sourceTree = "<group>";
+		};
+		6AA1366520825A3000D44086 = {
+			isa = PBXGroup;
+			children = (
+				6AA1367020825A3000D44086 /* HASTEN-SPORTS */,
+				6AA1368520825A3000D44086 /* HASTEN-SPORTSTests */,
+				6AA1369020825A3000D44086 /* HASTEN-SPORTSUITests */,
+				6AA1366F20825A3000D44086 /* Products */,
+				4557EDCF93F253464E90AFE1 /* Pods */,
+				B5A6F43D454A146BB39A5A0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA1366F20825A3000D44086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1366E20825A3000D44086 /* HASTEN-SPORTS.app */,
+				6AA1368220825A3000D44086 /* HASTEN-SPORTSTests.xctest */,
+				6AA1368D20825A3000D44086 /* HASTEN-SPORTSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA1367020825A3000D44086 /* HASTEN-SPORTS */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136AD20825D1400D44086 /* ViewControlllers */,
+				6AA136AE20825D1F00D44086 /* AppDelegate */,
+				6AA136AF20825D3600D44086 /* StoryBoard */,
+				6AA136AC20825D0700D44086 /* Models */,
+				6AA136A720825CF100D44086 /* Workers */,
+				6AA136A420825CD700D44086 /* Constants */,
+				6AA136A120825CB500D44086 /* Protocols */,
+				6AA136B020825D4900D44086 /* Resources */,
+			);
+			path = "HASTEN-SPORTS";
+			sourceTree = "<group>";
+		};
+		6AA1368520825A3000D44086 /* HASTEN-SPORTSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1368620825A3000D44086 /* HASTEN_SPORTSTests.swift */,
+				6AA1368820825A3000D44086 /* Info.plist */,
+			);
+			path = "HASTEN-SPORTSTests";
+			sourceTree = "<group>";
+		};
+		6AA1369020825A3000D44086 /* HASTEN-SPORTSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1369120825A3000D44086 /* HASTEN_SPORTSUITests.swift */,
+				6AA1369320825A3000D44086 /* Info.plist */,
+			);
+			path = "HASTEN-SPORTSUITests";
+			sourceTree = "<group>";
+		};
+		6AA136A120825CB500D44086 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136A220825CC200D44086 /* Resource.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		6AA136A420825CD700D44086 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136A520825CE100D44086 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6AA136A720825CF100D44086 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136A820825CFA00D44086 /* API.swift */,
+				6AA136A920825CFA00D44086 /* SessionAPI.swift */,
+			);
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		6AA136AC20825D0700D44086 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AA136B32082627B00D44086 /* Sports.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6AA136AD20825D1400D44086 /* ViewControlllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A3602362083348400CBB740 /* DetailPlayerViewController */,
+				6A3602352083346A00CBB740 /* ListPlayerViewController */,
+			);
+			name = ViewControlllers;
+			sourceTree = "<group>";
+		};
+		6AA136AE20825D1F00D44086 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1367120825A3000D44086 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6AA136AF20825D3600D44086 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1367520825A3000D44086 /* Main.storyboard */,
+				6AA1367A20825A3000D44086 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6AA136B020825D4900D44086 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1367D20825A3000D44086 /* Info.plist */,
+				6AA1367820825A3000D44086 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B5A6F43D454A146BB39A5A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5295C0BA9FD5B7DD1B6D1A59 /* Pods_HASTEN_SPORTS.framework */,
+				37A0D1427AAED0C33A69D087 /* Pods_HASTEN_SPORTSTests.framework */,
+				C369C148F1F38670C30517F2 /* Pods_HASTEN_SPORTSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA1366D20825A3000D44086 /* HASTEN-SPORTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA1369620825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTS" */;
+			buildPhases = (
+				79B4C832A47DA66961934588 /* [CP] Check Pods Manifest.lock */,
+				6AA1366A20825A3000D44086 /* Sources */,
+				6AA1366B20825A3000D44086 /* Frameworks */,
+				6AA1366C20825A3000D44086 /* Resources */,
+				2A002B361687207CE241AD8B /* [CP] Embed Pods Frameworks */,
+				41395EACD04F9813DCB3D898 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HASTEN-SPORTS";
+			productName = "HASTEN-SPORTS";
+			productReference = 6AA1366E20825A3000D44086 /* HASTEN-SPORTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AA1368120825A3000D44086 /* HASTEN-SPORTSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA1369920825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTSTests" */;
+			buildPhases = (
+				8B5FD0C173EAE4D244BA18A0 /* [CP] Check Pods Manifest.lock */,
+				6AA1367E20825A3000D44086 /* Sources */,
+				6AA1367F20825A3000D44086 /* Frameworks */,
+				6AA1368020825A3000D44086 /* Resources */,
+				FEF6A2A8E6F4F0811D4C99AC /* [CP] Embed Pods Frameworks */,
+				68EDD051CC8B79B35907ECDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA1368420825A3000D44086 /* PBXTargetDependency */,
+			);
+			name = "HASTEN-SPORTSTests";
+			productName = "HASTEN-SPORTSTests";
+			productReference = 6AA1368220825A3000D44086 /* HASTEN-SPORTSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AA1368C20825A3000D44086 /* HASTEN-SPORTSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA1369C20825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTSUITests" */;
+			buildPhases = (
+				61C52719522B94AA66DEE3BF /* [CP] Check Pods Manifest.lock */,
+				6AA1368920825A3000D44086 /* Sources */,
+				6AA1368A20825A3000D44086 /* Frameworks */,
+				6AA1368B20825A3000D44086 /* Resources */,
+				2601E713105811DFE44DF14F /* [CP] Embed Pods Frameworks */,
+				0EC35AB9A0156C8A76B8736F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA1368F20825A3000D44086 /* PBXTargetDependency */,
+			);
+			name = "HASTEN-SPORTSUITests";
+			productName = "HASTEN-SPORTSUITests";
+			productReference = 6AA1368D20825A3000D44086 /* HASTEN-SPORTSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA1366620825A3000D44086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = eloysn;
+				TargetAttributes = {
+					6AA1366D20825A3000D44086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6AA1368120825A3000D44086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AA1366D20825A3000D44086;
+					};
+					6AA1368C20825A3000D44086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AA1366D20825A3000D44086;
+					};
+				};
+			};
+			buildConfigurationList = 6AA1366920825A3000D44086 /* Build configuration list for PBXProject "HASTEN-SPORTS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA1366520825A3000D44086;
+			productRefGroup = 6AA1366F20825A3000D44086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA1366D20825A3000D44086 /* HASTEN-SPORTS */,
+				6AA1368120825A3000D44086 /* HASTEN-SPORTSTests */,
+				6AA1368C20825A3000D44086 /* HASTEN-SPORTSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA1366C20825A3000D44086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA1367C20825A3000D44086 /* LaunchScreen.storyboard in Resources */,
+				6AA1367920825A3000D44086 /* Assets.xcassets in Resources */,
+				6AA1367720825A3000D44086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1368020825A3000D44086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1368B20825A3000D44086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC35AB9A0156C8A76B8736F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTSUITests/Pods-HASTEN-SPORTSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2601E713105811DFE44DF14F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTSUITests/Pods-HASTEN-SPORTSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A002B361687207CE241AD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTS/Pods-HASTEN-SPORTS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTS/Pods-HASTEN-SPORTS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41395EACD04F9813DCB3D898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTS/Pods-HASTEN-SPORTS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C52719522B94AA66DEE3BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HASTEN-SPORTSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68EDD051CC8B79B35907ECDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTSTests/Pods-HASTEN-SPORTSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B4C832A47DA66961934588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HASTEN-SPORTS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5FD0C173EAE4D244BA18A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HASTEN-SPORTSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF6A2A8E6F4F0811D4C99AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HASTEN-SPORTSTests/Pods-HASTEN-SPORTSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA1366A20825A3000D44086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA136A320825CC200D44086 /* Resource.swift in Sources */,
+				6AA136AB20825CFA00D44086 /* SessionAPI.swift in Sources */,
+				6A360238208334A600CBB740 /* DetailPlayerViewController.swift in Sources */,
+				6AA136B42082627B00D44086 /* Sports.swift in Sources */,
+				6AA1367420825A3000D44086 /* ListViewController.swift in Sources */,
+				6AA1367220825A3000D44086 /* AppDelegate.swift in Sources */,
+				6AA136A620825CE100D44086 /* Constants.swift in Sources */,
+				6AA136B820827B0400D44086 /* ViewCellSport.swift in Sources */,
+				6AA136B220825FA800D44086 /* ListSportsViewModel.swift in Sources */,
+				6AA136AA20825CFA00D44086 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1367E20825A3000D44086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA1368720825A3000D44086 /* HASTEN_SPORTSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA1368920825A3000D44086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA1369220825A3000D44086 /* HASTEN_SPORTSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA1368420825A3000D44086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA1366D20825A3000D44086 /* HASTEN-SPORTS */;
+			targetProxy = 6AA1368320825A3000D44086 /* PBXContainerItemProxy */;
+		};
+		6AA1368F20825A3000D44086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA1366D20825A3000D44086 /* HASTEN-SPORTS */;
+			targetProxy = 6AA1368E20825A3000D44086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AA1367520825A3000D44086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA1367620825A3000D44086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AA1367A20825A3000D44086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA1367B20825A3000D44086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AA1369420825A3000D44086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AA1369520825A3000D44086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AA1369720825A3000D44086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0C2F628EB25F6FA51A36C1 /* Pods-HASTEN-SPORTS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AA1369820825A3000D44086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C70A51F0271D09E0363B394 /* Pods-HASTEN-SPORTS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AA1369A20825A3000D44086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0A056D6040553F82B3EB58 /* Pods-HASTEN-SPORTSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HASTEN-SPORTS.app/HASTEN-SPORTS";
+			};
+			name = Debug;
+		};
+		6AA1369B20825A3000D44086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6201EA2BB47713016D7E1E5 /* Pods-HASTEN-SPORTSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HASTEN-SPORTS.app/HASTEN-SPORTS";
+			};
+			name = Release;
+		};
+		6AA1369D20825A3000D44086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9266ADDC77083AE58F446251 /* Pods-HASTEN-SPORTSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HASTEN-SPORTS";
+			};
+			name = Debug;
+		};
+		6AA1369E20825A3000D44086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9861CDF532327926332DE64 /* Pods-HASTEN-SPORTSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV9DMV2MM2;
+				INFOPLIST_FILE = "HASTEN-SPORTSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fratelliapps.HASTEN-SPORTSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HASTEN-SPORTS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA1366920825A3000D44086 /* Build configuration list for PBXProject "HASTEN-SPORTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA1369420825A3000D44086 /* Debug */,
+				6AA1369520825A3000D44086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA1369620825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA1369720825A3000D44086 /* Debug */,
+				6AA1369820825A3000D44086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA1369920825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA1369A20825A3000D44086 /* Debug */,
+				6AA1369B20825A3000D44086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA1369C20825A3000D44086 /* Build configuration list for PBXNativeTarget "HASTEN-SPORTSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA1369D20825A3000D44086 /* Debug */,
+				6AA1369E20825A3000D44086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA1366620825A3000D44086 /* Project object */;
+}

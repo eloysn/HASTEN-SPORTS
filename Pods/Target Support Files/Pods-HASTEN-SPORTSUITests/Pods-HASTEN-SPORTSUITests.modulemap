@@ -1,0 +1,6 @@
+framework module Pods_HASTEN_SPORTSUITests {
+  umbrella header "Pods-HASTEN-SPORTSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
